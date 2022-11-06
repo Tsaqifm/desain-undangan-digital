@@ -603,10 +603,6 @@ video {
   z-index: 10;
 }
 
-.z-20{
-  z-index: 20;
-}
-
 .ml-8{
   margin-left: 2rem;
 }
@@ -689,11 +685,6 @@ video {
 
 .border{
   border-width: 1px;
-}
-
-.bg-slate-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br{
