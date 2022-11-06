@@ -603,6 +603,10 @@ video {
   z-index: 10;
 }
 
+.z-20{
+  z-index: 20;
+}
+
 .ml-8{
   margin-left: 2rem;
 }
@@ -613,10 +617,6 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
 }
 
 .flex{
@@ -691,6 +691,11 @@ video {
   border-width: 1px;
 }
 
+.bg-slate-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-br{
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -703,6 +708,14 @@ video {
 
 .to-slate-300{
   --tw-gradient-to: #cbd5e1;
+}
+
+.pt-28{
+  padding-top: 7rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .pt-20{
@@ -725,41 +738,29 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-32{
-  padding-top: 8rem;
-}
-
-.pt-28{
-  padding-top: 7rem;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
-}
-
 .text-center{
   text-align: center;
-}
-
-.font-playfair{
-  font-family: Playfair Display;
-}
-
-.font-dancing{
-  font-family: Dancing Script;
 }
 
 .font-poppins{
   font-family: Poppins;
 }
 
-.text-xxs{
-  font-size: 0.65rem;
+.font-dancing{
+  font-family: Dancing Script;
+}
+
+.font-playfair{
+  font-family: Playfair Display;
 }
 
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xxs{
+  font-size: 0.65rem;
 }
 
 .text-lg{
@@ -770,11 +771,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-medium{
